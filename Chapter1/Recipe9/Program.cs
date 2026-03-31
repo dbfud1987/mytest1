@@ -8,7 +8,7 @@ namespace Chapter1.Recipe9
 		static void Main(string[] args)
 		{
 			Console.WriteLine("Incorrect counter");
-			/////////1222222222333333333
+			
 			var c = new Counter();
 
 			var t1 = new Thread(() => TestCounter(c));
